@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///home/white_ember/Code/md04/ss07/medical-config-repo
+          default-label: main
+server:
+  port: 8888
